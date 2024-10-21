@@ -1,6 +1,6 @@
-USING quote.services.*.
+USING quote.services.* FROM PROPATH.
 
-DEF VAR quotingService AS CLASS QuotingService NO-UNDO.
+DEF VAR quotingService AS QuotingService NO-UNDO.
 quotingService = NEW QuotingService() NO-ERROR.
 
 quotingService:CreateQuote() NO-ERROR.

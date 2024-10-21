@@ -1,4 +1,5 @@
 CLASS quote.services.QuotingService:
+    
     METHOD PUBLIC VOID CreateQuote():
         MESSAGE "CREATING A QUOTE" VIEW-AS ALERT-BOX INFO.
         RETURN.
