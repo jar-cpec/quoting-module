@@ -1,0 +1,8 @@
+CLASS ProductService:
+
+    METHOD PUBLIC VOID CreateProduct():
+        MESSAGE "CREATING A PRODUCT" VIEW-AS ALERT-BOX INFO.
+        RETURN.
+    END METHOD.
+
+END CLASS.
