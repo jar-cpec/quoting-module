@@ -1,4 +1,4 @@
-CLASS quote.services.ProductService:
+CLASS src.services.ProductService:
 
     METHOD PUBLIC VOID CreateProduct():
         MESSAGE "CREATING A PRODUCT" VIEW-AS ALERT-BOX INFO.
@@ -6,6 +6,7 @@ CLASS quote.services.ProductService:
     END METHOD.
     
     CONSTRUCTOR STATIC ProductService():
+        
     END CONSTRUCTOR.
 
 END CLASS.

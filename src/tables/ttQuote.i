@@ -1,0 +1,22 @@
+DEFINE TEMP-TABLE ttQuote NO-UNDO
+    FIELD QuoteId AS CHARACTER.
+    FIELD QuoteDate AS DATE.
+    /* Dealer Info */
+    FIELD DealerName AS CHARACTER.
+    FIELD DealerSalesman AS CHARACTER.
+    /* Company Info */
+    FIELD CompanyName AS  CHARACTER.
+    FIELD CompanyAddress AS CHARACTER.
+    FIELD CompanyCity AS CHARACTER.
+    FIELD CompanyState AS CHARACTER.
+    FIELD CompanyPostalCode AS CHARACTER.
+    FIELD CompanyCountry AS CHARACTER.
+    /* Contact Info */
+    FIELD ContactName AS CHARACTER.
+    FIELD ContactPosition AS CHARACTER.
+    FIELD ContactPhoneNumber AS CHARACTER.
+    FIELD ContactEmail AS CHARACTER.
+    /* Operational Info */
+    FIELD DaysPerWeek AS INTEGER.
+    FIELD ShiftsPerDay AS INTEGER.
+    
